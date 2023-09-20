@@ -1,4 +1,4 @@
-module git.woa.com/taw/otel-redis
+module github.com/bearxiongzhen/redis-opentelemetry
 
 go 1.18
 
