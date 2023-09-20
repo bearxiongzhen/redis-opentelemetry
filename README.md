@@ -79,8 +79,8 @@ return tp
 ```go
 func InitRedisConnection() {
     redisClient = redis.NewClusterClient(&redis.ClusterOptions{
-    Addrs:    []string{"9.135.71.56:6380"},
-    Password: "1qaz2wsx", // no password set
+    Addrs:    []string{"******:6380"},
+    Password: "******", // no password set
     })
     _, err := redisClient.Ping().Result()
     if err != nil {

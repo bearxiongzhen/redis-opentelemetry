@@ -1,6 +1,6 @@
 module github.com/bearxiongzhen/redis-opentelemetry/examples
 
-go 1.18
+go 1.17
 
 require (
 	github.com/bearxiongzhen/redis-opentelemetry v0.0.0-20230920064406-25caa95480d7
