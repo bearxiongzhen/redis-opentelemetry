@@ -4,7 +4,7 @@ import (
 	"context"
 	"github.com/go-redis/redis"
 
-	apmgoredis "github.com/opentelemetry/goredis"
+	apmgoredis "git.woa.com/taw/otel-redis"
 )
 
 var (
